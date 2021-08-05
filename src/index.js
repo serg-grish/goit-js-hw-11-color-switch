@@ -1,1 +1,2 @@
-import './sass/main.scss';
+import "./style.css";
+import "./js/switch.js";
