@@ -25,14 +25,25 @@ body {
 
 .btn {
   border: none;
-  background: #045c21;
+  background: #f7239f;
   color: #ffffff !important;
   font-weight: 100;
   min-width: 150px;
   margin: 20px;
+  cursor: pointer;
   padding: 20px;
   text-transform: uppercase;
   border-radius: 6px;
   display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+.btn:hover {
+  min-width: 200px;
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.3s ease 0s;
 }
